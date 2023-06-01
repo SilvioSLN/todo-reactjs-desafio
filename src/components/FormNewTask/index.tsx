@@ -2,10 +2,9 @@ import { PlusCircle } from "@phosphor-icons/react";
 import { ChangeEvent, useState, InvalidEvent, FormEvent } from "react";
 
 import style from './style.module.css';
+import { FormNewTaskProps } from "../../@types/todo";
 
-export interface FormNewTaskProps {
-    onCreateNewTask: (event: FormEvent, titleTask:string ) => void;
-}
+
 
 
 export function FormNewTask({ onCreateNewTask } : FormNewTaskProps) {

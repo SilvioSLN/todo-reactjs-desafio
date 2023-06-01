@@ -17,3 +17,7 @@ export interface TaskProps {
     changeToggleTaskDone: (id: string) => void;
     onRemoveTask: (id: string) => void;
 }
+
+export interface FormNewTaskProps {
+    onCreateNewTask: (event: FormEvent, titleTask:string ) => void;
+}
