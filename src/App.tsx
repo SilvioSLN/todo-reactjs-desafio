@@ -35,12 +35,8 @@ const todos_db = [
 export function App() {
 
   const [todos, setTodos] = useState(todos_db)
-
   const [taskCriated, setTaskCriated] = useState(todos.length)
-
   const [taskCompleted, setTaskCompleted] = useState(todos_db.filter(task => task.done).length)
-
-
 
   const createNewTask = (event : FormEvent, titleTask: string) => {
     event.preventDefault()
@@ -56,7 +52,6 @@ export function App() {
     })
 
     console.log('criar nova tarefa')
-
   }
 
   const handleToggleTaskDone = (id: string) => {
