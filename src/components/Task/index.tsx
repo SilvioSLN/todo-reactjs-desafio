@@ -1,5 +1,5 @@
 import { CheckCircle, Circle, Trash, FolderMinus } from '@phosphor-icons/react';
-import { TaskProps } from "../@types/todo";
+import { TaskProps } from "../../@types/todo";
 
 import style from './style.module.css';
 
