@@ -1,4 +1,6 @@
 
+import { FormEvent } from "react";
+
 export interface TaskTypes {
     id: string;
     title: string;
