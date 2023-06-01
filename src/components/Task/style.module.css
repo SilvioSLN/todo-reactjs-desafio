@@ -1,0 +1,65 @@
+.task{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;   
+    background: var(--gray-400);
+    margin-bottom: 12px;
+    padding: 8px 0 6px;
+    border-radius: 4px;
+}
+.task:hover{
+    opacity: 0.8;
+}
+
+.task input[type=checkbox]{
+    display: none;
+}
+
+.boxTitle {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.iconCheck{
+    width: 40px;
+}
+
+.boxTitle span{
+    margin-left: 1rem;
+    width: 100%;
+}
+
+.boxTitle span.checked{
+    text-decoration: line-through;
+    color: var(--gray-300);
+}
+
+.checkNo{
+    color: var(--blue-500);
+    font-weight: bold;
+    border-radius: 50%;
+}
+
+.checkYes{
+    color: var(--purple-600);
+    font-weight: bold;
+    background: var(--gray-100);
+    border-radius: 50%;
+}
+
+.buttonRemoveTask{
+    display: flex;
+    justify-content: center;
+    border: none;
+    color: var(--gray-100);
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    margin-top: 0.25rem;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
